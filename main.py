@@ -48,9 +48,9 @@ def win_users(f,user):
 
 
 
-
-count=0
-while True:
+def start_game(f):
+    count=0
+    while True:
         if count==9:
             print("Ничья")
             break
@@ -70,6 +70,7 @@ while True:
 
             break
         count+= 1
+start_game(game_field)
 
 
 
